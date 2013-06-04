@@ -24,6 +24,8 @@
 		699C7B14175DAC69005AA423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699C7AEC175DAC69005AA423 /* Foundation.framework */; };
 		699C7B1C175DAC69005AA423 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 699C7B1A175DAC69005AA423 /* InfoPlist.strings */; };
 		699C7B1F175DAC69005AA423 /* LHUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C7B1E175DAC69005AA423 /* LHUtilitiesTests.m */; };
+		699C7B2B175DAC98005AA423 /* NSString+LHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C7B2A175DAC98005AA423 /* NSString+LHUtilities.m */; };
+		699C7B2E175DAD1E005AA423 /* UIView+LHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C7B2D175DAD1E005AA423 /* UIView+LHUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		699C7B1B175DAC69005AA423 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		699C7B1D175DAC69005AA423 /* LHUtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHUtilitiesTests.h; sourceTree = "<group>"; };
 		699C7B1E175DAC69005AA423 /* LHUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHUtilitiesTests.m; sourceTree = "<group>"; };
+		699C7B29175DAC98005AA423 /* NSString+LHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LHUtilities.h"; sourceTree = "<group>"; };
+		699C7B2A175DAC98005AA423 /* NSString+LHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LHUtilities.m"; sourceTree = "<group>"; };
+		699C7B2C175DAD1E005AA423 /* UIView+LHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LHUtilities.h"; sourceTree = "<group>"; };
+		699C7B2D175DAD1E005AA423 /* UIView+LHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LHUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		699C7AF0175DAC69005AA423 /* LHUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				699C7B28175DAC72005AA423 /* Category */,
 				699C7AF9175DAC69005AA423 /* AppDelegate.h */,
 				699C7AFA175DAC69005AA423 /* AppDelegate.m */,
 				699C7B02175DAC69005AA423 /* ViewController.h */,
@@ -161,6 +168,17 @@
 				699C7B1A175DAC69005AA423 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		699C7B28175DAC72005AA423 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				699C7B29175DAC98005AA423 /* NSString+LHUtilities.h */,
+				699C7B2A175DAC98005AA423 /* NSString+LHUtilities.m */,
+				699C7B2C175DAD1E005AA423 /* UIView+LHUtilities.h */,
+				699C7B2D175DAD1E005AA423 /* UIView+LHUtilities.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +295,8 @@
 				699C7AF7175DAC69005AA423 /* main.m in Sources */,
 				699C7AFB175DAC69005AA423 /* AppDelegate.m in Sources */,
 				699C7B04175DAC69005AA423 /* ViewController.m in Sources */,
+				699C7B2B175DAC98005AA423 /* NSString+LHUtilities.m in Sources */,
+				699C7B2E175DAD1E005AA423 /* UIView+LHUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
